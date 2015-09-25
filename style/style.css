@@ -1,4 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
 body{
 	margin: 0;
-	background: yellow;
+	background: url(../image/background.png);
+	overflow: hidden;
+	font-family: 'Indie Flower', cursive;
+}
+#baby-container-1{
+    position: absolute;
+    width: 300px;
+    height: 206px;
+    background: url(../image/baby.png);
+    left: 520px;
+    top: -30%;
+    z-index: 2;
+
+}
+#baby-container-2{
+    position: absolute;
+    width: 300px;
+    height: 206px;
+    background: url(../image/baby.png);
+    left: 520px;
+    top: 60%;
+    z-index: 2;
+    transition:all 4s linear;
+
+}
+
+#boy-container-1{
+	position:absolute;
+	width:150px;
+	height:200px;
+	background:url(../image/boy_walking.gif);
+	left:1600px;
+	top:50%;
+	z-index: 2;
+
+}
+#boy-container-2{
+	position:absolute;
+	width:150px;
+	height:200px;
+	background:url(../image/boy_walking.gif);
+	left:700px;
+	top:50%;
+	z-index: 2;
+	transition:all 8s linear;
+}
+#boy-container-3{
+	position:absolute;
+	width:150px;
+	height:200px;
+	background:url(../image/boy_walking.png);
+	left:700px;
+	top:50%;
+	z-index: 2;
+	transition: all 5s;
+}
+#boy-container-4{
+	position:absolute;
+	width:300px;
+	height:200px;
+	background:url(../image/girl_boy-together.png);
+	left:500px;
+	top:50%;
+	z-index: 2;
+	
+}
+#boy-container-5{
+	position:absolute;
+	width:300px;
+	height:250px;
+	background:url(../image/girl_boy-together2.png);
+	left:500px;
+	top:50%;
+	z-index: 2;
+	
+}
+
+#girl-container-1{
+	position:absolute;
+	width:150px;
+	height:200px;
+	background:url(../image/girl_walking.gif);
+	left:1600px;
+	top:50%;
+	z-index: 2;
+}
+#text-reader{
+	position:absolute;
+	width:100%;
+	height:200px;
+	font-size: 36px;
+	color: black;
+	top:20%;
+	left:20%;
+	transition: all 2s;
+}
+
+
+#girl-container-2{
+	position:absolute;
+	width:150px;
+	height:200px;
+	background:url(../image/girl_walking.gif);
+	left:500px;
+	top:50%;
+	z-index: 2;
+	transition:all 5s linear;
+}
+
+#girl-container-3{
+	position:absolute;
+	width:150px;
+	height:200px;
+	background:url(../image/girl_walking.png);
+	left:500px;
+	top:50%;
+	z-index: 2;
+	transition: all 5s;
+}
+#girl-container-4{
+	position:absolute;
+	width:150px;
+	height:200px;
+	background:url(../image/girl_walking-flipped.png);
+	left:500px;
+	top:50%;
+	z-index: 2;
+	transition: all 5s;
+}
+#girl-container-5{
+	position:absolute;
+	
+}
+
+#ground{
+	position: absolute;
+	width: 100%;
+	height: 60%;
+	top:40%;
+	background:url("../image/ground.png") no-repeat;
 }
