@@ -44,7 +44,12 @@ window.onload=function(){
 	}
 	if(seconds==29){
 		document.getElementById("text-reader").innerHTML = "There were  <strong><span style='color:white'>THREE</span></strong>."
-	}	
+	}
+	if(seconds==31){
+		document.getElementById("boy-container-4").setAttribute("id", "boy-container-6");
+		document.getElementById("baby-container-2").setAttribute("id", "baby-container-3");
+	}
+	
 
 
 		}, 500);
