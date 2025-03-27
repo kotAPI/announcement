@@ -154,3 +154,8 @@ body{
 	top:40%;
 	background:url("../image/ground.png") no-repeat;
 }
+
+img{
+	width: 30px;
+	height: 30px;
+}
